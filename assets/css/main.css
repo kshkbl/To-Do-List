@@ -1,0 +1,207 @@
+
+/*MY CODE*/
+
+*
+{
+	font-family:'Abel', sans-serif;
+}
+
+title
+{
+	font-size: 30px;
+}
+
+body
+{
+	/*background-color: #ccc;*/
+	background-image: url('../images/Laptop.jpg');
+	background-repeat: no-repeat;
+	/*background-position: center center;*/
+	background-size: cover;
+	background-color: rgba(0,0,0,0.5);
+
+}
+
+img
+{
+	opacity: 0.5;
+}
+
+body,
+input
+{
+	font-size: 16px;
+	color:black;
+}
+
+a
+{
+	text-decoration: none;
+}
+span
+{
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+.head
+{
+	padding-top: 10px;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+
+/* list */
+.list
+{
+	background-color: #fff;
+	margin: 20px auto;
+	/*width: 100%;*/
+	width: 600px;
+	/*max-width: 90%;*/
+	padding: 20px;
+	box-sizing: border-box;
+	border:1px solid #00000047;
+	overflow: scroll;
+    /*box-shadow: 3px 3px 0 rgba(0,0,0,0.1);*/
+}
+
+.list .header
+{
+	margin:auto;
+	text-align: center;
+	font-size: 20px;
+}
+ /* Items */
+ .items
+ {
+ 	margin: 0;
+ 	padding: 0;
+ 	list-style-type:none; 
+ }
+
+
+/*
+'black'   =>'casual',
+'red'     =>'critical',
+'yellow'  =>'priority',
+'grey'    =>'mediumpriority',
+'pink'    =>'important',
+'green'   =>'family',
+'liteyelo'=>'deadline',
+'purple'  =>'notcritical' */
+
+ .items li:hover .done-button
+ {
+ 	color: black;
+
+ }
+
+ .items .done
+ {
+ 	text-decoration: line-through;
+ }
+
+ .critical
+ {
+ 	color: #e61919;
+ }
+
+ .priority
+ {
+ 	color: #f9c806;
+ }
+
+ .mediumpriority
+ {
+ 	color: #ccccb3;
+ }
+
+ .important
+ {
+ 	color: #ff9999;
+ }
+
+ .deadline
+ {
+ 	color: #ffdb4d;
+ }
+
+ .notcritical
+ {
+ 	color: #8080ff;
+ }
+
+
+ .items li,
+ .item-add .input
+ {
+ 	border:0;
+ 	padding: 8px 0;
+ }
+
+ .item-add .input::placeholder
+ {
+ 	text-align: center;
+ 	font-size: 16px;
+ }
+
+ .input 
+ {
+ 	width: 100%;
+ 	border: none;
+ }
+
+ .input:focus
+ {
+ 	outline: none;
+ }
+
+ /* Done button*/
+
+.items .done-button
+{
+	display: inline-block;
+	font-size:16px;
+	background-color: white;
+	color: white;
+	padding: 3px 6px;
+	border: 0;
+	opacity: 0.4;
+}
+
+/*Submit button*/
+
+.submit
+{
+	font-size: 20px;
+	background-color: #ccc;
+	padding:auto;
+	border:none;
+	width: 100%;
+	margin:auto; 
+	color: #111;
+	/*box-shadow: 3px 3px 0 #ddd;*/
+}
+
+.delbutton
+{
+	width: 100%;
+	padding-top: 10px;
+}
+
+.formbtn
+{
+	font-size: 20px;
+	display: block;
+	background-color: #ccc;
+	padding: auto;
+	/*border:1px solid #ddd;*/
+	width: 100%;
+	margin: auto; 
+	color: #111;
+	text-align: center;
+	/*box-shadow: 3px 3px 0 #ddd;*/
+}
+

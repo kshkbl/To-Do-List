@@ -1,0 +1,200 @@
+
+/*MY CODE*/
+
+*
+{
+    font-family:'Abel', sans-serif;
+    /*font-weight: bold;*/
+}
+
+.main-wrapper
+{
+    margin: 0 auto;
+    width: 90%;
+}
+
+a 
+{
+    text-decoration: none;
+}
+
+body 
+{
+    /*width: 100%;*/
+    background-color: #ccc;
+    background-image: url(../images/Laptop.jpg);
+
+}
+
+input:focus
+{
+    outline: none;
+}
+
+header
+{
+    min-height: 60px;
+    max-height: 600px;
+    background-color: #fff;
+}
+
+/*header nav 
+{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+}
+*/
+header nav ul 
+{
+    float: left;
+}
+
+header nav ul li 
+{
+    float: left;
+    list-style: none;
+}
+
+header nav ul li a 
+{
+    /*font-family: arial;*/
+    font-size: 16px;
+    color: #111;
+    line-height:63px;
+    /*padding-top:30px;*/
+}
+
+header .nav-login 
+{
+    float: right;
+}
+
+header .nav-login form 
+{
+    float: left;
+    padding-top: 15px;
+}
+
+header .nav-login form input 
+{
+    float: left;
+    width: 140px;
+    height: 30px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #ccc;
+    /*font-family: arial;*/
+    font-size: 14px;
+    /*font-weight: bold;*/
+    color: #111;
+    line-height: 1.5;
+}
+
+header .nav-login form button
+{
+    float: left;
+    width: auto;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    background-color: #f3f3f3;
+    /*font-family: arial;*/
+    font-size: 14px;
+    color: #111;
+    cursor: pointer;
+}
+
+header .nav-login form button:hover 
+{
+    background-color: #ccc;
+}
+
+header .nav-login a 
+{
+    display: block;
+    width: 60px;
+    height: 60px;
+    border: none;
+    float: left;
+    background-color: #fff;
+    /*font-family: arial;*/
+    font-size: 16px;
+    color: #111;
+    line-height: 63px;
+    cursor: pointer;
+}
+
+.main-container 
+{
+    padding-top: 40px;
+}
+
+.main-container h2 
+{
+    /*font-family: arial;*/
+    font-size: 40px;
+    color: #111;
+    line-height: 50px;
+    text-align: center;
+}
+
+/*signup.php*/
+
+.signup-form 
+{
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.signup-form input 
+{
+    width: 90%;
+    height: 40px;
+    padding: 0px 5%;
+    margin-bottom: 4px;
+    border: none;
+    background-color: #fff;
+    /*font-family: arial;*/
+    font-size: 16px;
+    /*font-weight: bold;*/
+    color: #111;
+    line-height: 40px;
+}
+
+.signup-form button 
+{
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: #222;
+    /*font-family: arial;*/
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.signup-form button:hover 
+{
+    background-color: #111;
+}
+
+/*media*/
+@media(max-width: 768px)
+{
+    /*header nav ul,
+    header nav ul li
+    header .nav-login a*/
+    *
+    {
+        /*display: ;*/
+        float:none;
+        text-align: center;
+        width: 100%;
+    }
+}
+
